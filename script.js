@@ -45,7 +45,7 @@ const calcTempAmplitude = function (temps) {
     }
   }
   console.log(max, min);
-  return max + min;
+  return max * min;
 };
 
 calcTempAmplitude([41, 7, 4, 21]);
